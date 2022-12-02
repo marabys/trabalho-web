@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/aula.css">
+    <script src="./js/excluir.js" defer></script>
+    <script src="./js/tabela.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-form">
+        <div class="main-table">
+            <div>
+                <table id="table">
+                    <theader class="cabeca">
+                        <tr class="trabalhador">
+                            <td class="td-nome">Nome</td>
+                            <td class="td-endereco">Idade</td>
+                            <td class="td-idade">Idade</td>
+                            <td class="td-salario">salario</td>
+                            <td class="td-filhos">Numero Filhos</td>
+                            <td class="td-plano">Plano</td>
+                        </tr>
+                    </theader>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="form-d">
+            <form id="formulario" autocomplete="off">
+                <fieldset>
+                    <legend>Formulário</legend>
+                    <label>Nome:</label><br><input class="campo_nome" type="text" name="nome"><br>
+                    <label>Endereço</label><br><input class="campo_endereco" type="text" name="endereco"><br>
+                    <label>idade</label><br> <input type="number" class="campo_idade" name="idade"><br>
+                    <label>salario <br><input type="number" class="campo_salario" name="salario"></label><br>
+                    <label>Filhos?</label>
+                    <input type="radio" name="webmaster" value="sim" class="campo_filhos-s" /> Sim
+                    <input type="radio" name="webmaster" value="nao" class="campo_idade-n" /> Não<br />
+                    <input type="number" placeholder="Numero de Filhos" name="filhos"><br>
+
+                    <label>Plano</label>
+                    <input type="radio" name="webmaster" value="sim" /> Sim
+                    <input type="radio" name="webmaster" value="nao" /> Não<br />
+                    <input type="text" placeholder="Nome do Plano" name="plano"><br>
+
+                    <input id="btn_submit" class="btn_submit" type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
